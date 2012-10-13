@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+	<meta charset="utf-8">
+	<title>KyuWon's HomePage</title>
+	<link href="stylesheets/main.css" rel="stylesheet" type="text/css"> 
+</head>
+
+<body>
+<div id="wrap">
+	  <div id="top">
+		  <a href="http://www.naver.com" target="_blank">Naver</a> 
+		  <a href="http://www.google.co.kr" target="_blank">Google</a>
+	  </div>
+	<!-- Header -->
+	<div id="header">
+	  	<div id="header_top">
+				Welcome to KyuWon's Homepage 
+		  </div>
+		  
+      <div id="line">
+		  </div>
+
+		  <div id="navbar">
+			  <ul>
+				  <li><a href="test.html" >PROFILE</a></li>
+				  <li><a href="test1.html">Kyuwon Space</a></li>
+			  	<li><a href="test2.html" class="selected">Kyuwon Survey</a></li>
+			  </ul>
+	    </div>
+	
+	</div>
+
+	<div id="content">
+		<div id="main_content">
+		<!-- Main Content -->
+		       <div class="section_1" id="content1">
+            <h1>Information</h1>
+         
+           <form action="/update.php" method="post"> 
+        <input type="hidden" name="type" value="user"/>
+        나이:
+           <select name="job">
+           <option value="20">20</option>
+           <option value="21">21</option>
+           <option value="22">22</option>
+           <option value="23">23</option>
+           <option value="24">24</option>
+           <option value="25">25</option>
+           <option value="26">26</option>
+           <option value="27">27</option>
+           <option value="28">28</option>
+           <option value="29">29</option>
+           <option value="30">30</option>
+         </select><p> 
+
+      	성별:
+      	   <input type="radio" name="sex" value="m"/>남자
+      	   <input type="radio" name="sex" value="f"/>여자
+          <p>
+      	취미:
+      	   <input type="checkbox" name="hobby" value="book"/>독서
+      	   <input type="checkbox" name="hobby" value="movie"/>영화
+      	   <input type="checkbox" name="hobby" value="music"/>음악
+           <input type="checkbox" name="hobby" value="exersize"/>운동
+           <input type="checkbox" name="hobby" value="computer"/>컴퓨터
+          <p>
+        사는곳:
+           <select name="live">
+              <option value="seoul">서울</option>
+              <option value="gyunggi">경기</option>
+              <option value="daejun">대전</option>
+              <option value="exept">기타</option>
+           </select><p>
+        전공:
+        <select name="major">
+              <option value="computer">컴퓨터공학</option>
+              <option value="paint">미술</option>
+              <option value="electronic">전기전자</option>
+              <option value="chemistry">화학</option>
+           </select>
+         </form>
+
+        </div>
+        
+        <div class="section_2" id="content2"> 
+            <h1>Likes</h1>
+         
+            1.좋아하는 음악 장르는?<p>
+        <select name="music" size="5" multiple>
+          <option value="classic">클래식
+          <option value="jazz">재즈
+          <option value="pop">팝송
+          <option value="kpop">가요
+          <option value="arirang">국악
+        </select><p>
+   
+        2. 주로 옷 쇼핑하는 장소는?<p>
+        <select name="buy">
+          <option value="internet">인터넷 쇼핑몰
+          <option value="offline">명동,홍대 오프라인 매장
+          <option value="outlet">대형 아울렛
+          <option value="departmentstore">백화점
+        </select><p>
+        </div>
+
+        <div class="section_3" id="content3">   
+              <h1>Question</h1>
+       
+              <p>1. 이때까지 살면서 자신에게 가장 큰 영향을 준 사람은?
+          <input type="text" name="question">
+         <p>2. 좌우명이나 가장 좋아하는 단어는?
+          <input type="text" name="question">
+         <p>3.대인관계에서 가장 중요한것이 무엇이라고 생각합니까?
+        <input type="text" name="question">
+         <p>4.본인의 신체중 가장 자신있는 부위는 어디입니까??
+       <input type="text" name="question">
+         <p>5.당신의 이상형은 어떤 스타일입니까?
+        <input type="text" name="question">
+         <p>6.자신의 가장 큰 장점이 무엇이라고 생각합니까?
+        <input type="text" name="question">
+         <p>7.지금 여행가고 싶은 곳이 있습니까?
+        <input type="text" name="question">
+        <p>8.10년후 당신이 무엇을 하고 있을 것 같습니까?
+        <input type="text" name="question">
+
+      </div>
+
+        <div class="section_4" id="content4">   
+            <h1>Last to say</h1>
+        1. 이름: <input type="text" name="id" size="8" maxlength="5"><p>
+        2. E-mail: <input type="text" name="mail" size="20" maxlength="50"><p>
+        <textarea name="text" rows="10" cols="70">
+        여기에 하고싶은 말을 적어주세요.
+        </textarea>
+        </div>
+
+
+		<!-- // Main Content -->
+		</div>
+
+	</div>
+	<div id="footer">
+		<p> This Home is Made by Kyuwon  © KyuWon Homepage. </p>
+	</div>
+
+</div>
+
+</body>
+</html>
